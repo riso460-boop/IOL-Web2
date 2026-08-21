@@ -1024,6 +1024,11 @@ p { margin: 0 0 18px; }
   .gallery { grid-template-columns: repeat(2, 1fr); }
 }
 
+@media (max-width: 620px) {
+  .subnav { flex-direction: column; align-items: stretch; }
+  .subnav a { justify-content: center; width: 100%; }
+}
+
 @media (max-width: 520px) {
   body { font-size: 16px; }
   .facts-strip .container { grid-template-columns: 1fr; }
